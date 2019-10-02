@@ -20,6 +20,7 @@ build
 dist
 build/Release
 .tmp
+.cache
 
 # Directory for debug, log files and databases #
 ################################################
