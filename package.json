@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "production": "parcel build index.html",
+    "watch": "parcel watch index.html"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.0.0",
+    "cssnano": "^4.1.10",
     "vue-template-compiler": "^2.6.10"
   }
 }
